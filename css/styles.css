@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: raleway;
+}
+.logo {
+  font-size: 25px;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 35px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  /* overflow: hidden; */
+  background-color: white;
+}
+/* .navbar :first-child {
+  width: 100%;
+  height: 20px;
+  background-color: black;
+} */
+.nav-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  column-gap: 20px;
+}
+.navlinks {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  /* text-transform: uppercase; */
+}
+.hero {
+  background-image: url(../img/main.jpg);
+  height: 130vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.hero-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  row-gap: 20px;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.2); */
+}
+.hero-overlay h1 {
+  font-size: 3em;
+  width:60%;
+  
+}
+.hero p {
+  font-size: 1.5em;
+}
+
+.hero-buttons :first-child {
+  background-color: rgb(19, 20, 20);
+  padding: 15px 35px;
+  font-size: 0.8rem;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+.hero-buttons :last-child {
+  background-color: transparent;
+  padding: 10px 20px;
+  color: white;
+  text-transform: uppercase;
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 10px;
+  /* border: 2px solid white; */
+}
+.main-2 {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 100px;
+  align-items: center;
+  background-color: rgb(228, 221, 221);
+}
+.feature-image-one {
+  background-image: url(../img/Annie.png);
+  width: 320px;
+  height: 320px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.feature-text-one {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  text-align: justify;
+}
+.feature-text-one :last-child {
+  padding: 12px 27px;
+  background-color: black;
+  color: white;
+  border: none;
+  width: 150px;
+  border-radius: 10px;
+  text-transform: uppercase;
+ 
+}
+.main-3 {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 100px;
+}
+.feature-image-two {
+  background-image: url(../img/Devin.jpeg);
+  width: 320px;
+  height: 320px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.feature-text-two {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  row-gap: 20px;
+}
+.feature-text-two :last-child {
+  padding: 15px 35px;
+  width: 150px;
+  border: none;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+/* .hero-two-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+} */
+.hero-two {
+  background-image: url(../img/hero-2.jpg);
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.hero-bg-two {
+  width: 100%;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 10px;
+  align-items: center;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+.hero-bg-two :last-child {
+  padding: 15px 35px;
+  width: 150px;
+  border: none;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+.hero-bg-two h1 {
+  font-size: 3em;
+  color: white;
+}
+.hero-bg-two p {
+  /* font-size: 3em; */
+  color: white;
+  width: 70%;
+}
+.main-4 {
+  height: 160vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.feature-text-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 15px;
+}
+
+.feature-text-three h1 {
+  font-size: 2em;
+  /* width: 40%; */
+}
+.feature-text-three p {
+  width: 67%;
+  text-align: center;
+}
+.feature-text-three button {
+  padding: 15px 35px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+.feature-three-image {
+  background-image: url(../img/hero-3.jpg);
+  width: 80%;
+  height: 120vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+}
+.projects{
+  height:120vh;
+  background-color: #FDD02D;
+}
+.photo-project-text{
+  display:flex;
+  flex-direction:column;
+  height:30vh;
+  justify-content: center;
+  align-items: center;
+  row-gap:20px;
+}
+.photo-project-text :first-child{
+  font-size:2em;
+}
+.photo-project-text :last-child{
+  font-size:1.1em;
+}
+.grid-images{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+}
+.grid-images div{
+  
+}
+.grid-images img{
+  width:100%;
+  /* height: 50%; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* .logo {
+  display: flex;
+  flex-direction: row;
+  font-family: "inter";
+  font-size: 3em;
+  width: 30%;
+}
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 20px;
+}
+.navbar a {
+  text-decoration: none;
+} */
